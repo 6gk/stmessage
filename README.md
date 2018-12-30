@@ -1,8 +1,8 @@
 # thememenu - because one theme isn't enough
 
-A simple script that opens a dmenu with all available theme options and then replaces (links) `~/.Xresources` with it.
+A simple script that opens a dmenu with all available theme options and then replaces (links) `~/.Xresources` with it. It then restarts i3 via i3-msg reload and calls stmessage.
 
-It then restarts i3 via i3-msg reload and calls stmessage.
+If you want to use it, you need to replace the path in the `thememenu` file.
 
 # stmessage
 
