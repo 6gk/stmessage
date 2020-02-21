@@ -1,8 +1,0 @@
-#!/bin/sh
-themedir="/path/to/themes"
-
-rm $HOME/.Xresources
-ln $themedir/$(/bin/ls -1 $themedir | dmenu) $HOME/.Xresources
-xrdb ~/.Xresources
-i3-msg restart
-stmessage
